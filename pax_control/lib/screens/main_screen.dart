@@ -8,7 +8,7 @@ class MainScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      backgroundColor: Color(0xfff7f6fb),
+      backgroundColor: Colors.grey[300],
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.symmetric(vertical: 32, horizontal: 32),
